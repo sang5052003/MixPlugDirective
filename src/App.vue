@@ -1,12 +1,16 @@
 <template>
   <div id="app">
-    <pointer-demo/>
+    <!--<pointer-demo/>-->
+    <axios-chain-test/>
   </div>
 </template>
 
 <script>
 
+import AxiosChainTest from "./components/AxiosChainTest";
+
 export default {
+  components: {AxiosChainTest},
   name: 'app',
   data () {
     return {
